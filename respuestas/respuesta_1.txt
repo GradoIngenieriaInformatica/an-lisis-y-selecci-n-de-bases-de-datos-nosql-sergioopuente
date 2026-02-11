@@ -1,1 +1,22 @@
 TIPO | Justificación corta
+
+Ejercicio 1: Base de Datos Orientada a Grafos
+Por qué: Tienes nodos (lugares), aristas (conexiones) y necesitas calcular rutas (caminos).
+
+El problema de las otras: Si intentas hacer esto con SQL (Relacional), te vas a comer 50 JOINs recursivos para calcular una ruta y el servidor va a explotar.
+
+Ejemplo: Neo4j. Es lo que usa Google Maps o cualquier sistema de logística serio.
+
+Ejercicio 2: Base de Datos Documental (NoSQL)
+Por qué: La clave es "estructuras no uniformes" y "metadatos variables".
+
+El problema de las otras: En una SQL tendrías que llenar la tabla de NULLs o crear mil tablas satélite para cada variación. Una documental te deja guardar un JSON donde cada artículo tiene los campos que le dé la gana sin romper nada.
+
+Ejemplo: MongoDB. Ideal para CMS dinámicos.
+
+Ejercicio 3: Base de Datos de Series Temporales (Time Series)
+Por qué: "Millones de registros" y "indexados por fecha y hora".
+
+El problema de las otras: Una base de datos normal se ahoga escribiendo tantos datos por segundo y las consultas por rangos de tiempo son lentas si no están optimizadas específicamente para eso. Las Time Series están hechas para ingerir datos masivos cronológicos a toda hostia.
+
+Ejemplo: InfluxDB o TimescaleDB.
