@@ -1,3 +1,3 @@
 TIPO | Justificación corta
 
-DOCUMENTAL | Permite esquemas flexibles (schema-less) para almacenar artículos con metadatos y estructuras que varían entre documentos.
+ DOCUMENTAL | Permite esquemas flexibles (schema-less) para almacenar artículos con metadatos y estructuras que varían entre documentos.
