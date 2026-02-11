@@ -1,1 +1,3 @@
 TIPO | Justificación corta
+
+GRAFOS | Ideal para modelar nodos y conexiones complejas, permitiendo calcular rutas óptimas y caminos alternativos de forma nativa.
